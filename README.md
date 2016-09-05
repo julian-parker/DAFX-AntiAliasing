@@ -1,5 +1,5 @@
 # DAFX-AntiAliasing
-Companion page to the paper "Reducing the aliasing of nonlinear waveshaping using continuous-time convolution", presented at the DAFx16 Conference in Brno, Czech Republic, 5th-9th Sept. 2016.
+Companion page to the paper "Reducing the aliasing of nonlinear waveshaping using continuous-time convolution" by Julian D. Parker, Vadim Zavalishin and Efflam Le Bivic, presented at the DAFx16 Conference in Brno, Czech Republic, 5th-9th Sept. 2016.
 
 ## code/
 Contains MATLAB scripts implementing some of the results described in the paper.
