@@ -92,7 +92,7 @@ for (i = 3:length(input))
     if (abs(diff1) < 0.0000001)
         output1(i) = 0.5*HardClip(input(i));
     else
-        output1(i) = (HardClip1(input(i)) - HardClip1(input(i-1)) - input(i) * (HardClip0(input(i)) - HardClip0(input(i-1))))/(diff1*diff1);
+        output1(i) = -(HardClip1(input(i)) - HardClip1(input(i-1)) - input(i) * (HardClip0(input(i)) - HardClip0(input(i-1))))/(diff1*diff1);
     end
     if (abs(diff2) < 0.0000001)
         output1(i) = output1(i) + 0.5*HardClip(input(i-2));
